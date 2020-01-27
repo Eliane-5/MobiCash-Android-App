@@ -26,7 +26,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="create new account"
+        android:text="login into account"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.100000024" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/logEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.110000014" />
 
     <EditText
-        android:id="@+id/editText9"
+        android:id="@+id/logPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -79,7 +79,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText8"
+        app:layout_constraintTop_toBottomOf="@+id/logEmail"
         app:layout_constraintVertical_bias="0.13999999" />
 
     <Button
@@ -94,11 +94,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText9"
+        app:layout_constraintTop_toBottomOf="@+id/logPassword"
         app:layout_constraintVertical_bias="0.36" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/backRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
