@@ -48,17 +48,18 @@
         android:layout_marginRight="16dp"
         android:background="@color/common_google_signin_btn_text_dark_focused"
         android:ems="10"
-        app:fontFamily="@font/aclonica"
-        android:padding="10dp"
         android:hint="email"
-        android:textSize="14sp"
         android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
+        android:textSize="14sp"
+        app:fontFamily="@font/aclonica"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintVertical_bias="0.29000002" />
 
     <EditText
         android:id="@+id/logPassword"
@@ -73,6 +74,7 @@
         android:hint="password"
         android:inputType="textPassword"
         android:padding="10dp"
+        android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="14sp"
         app:fontFamily="@font/aclonica"
@@ -80,22 +82,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logEmail"
-        app:layout_constraintVertical_bias="0.13999999" />
+        app:layout_constraintVertical_bias="0.060000002" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/common_google_signin_btn_text_dark_default"
-        android:text="Login"
         android:padding="10dp"
+        android:text="Login"
         android:textStyle="bold"
         app:fontFamily="@font/aclonica"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logPassword"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <TextView
         android:id="@+id/backRegister"

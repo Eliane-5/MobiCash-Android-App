@@ -62,7 +62,8 @@ public class Login extends AppCompatActivity {
                             Toast.makeText(Login.this,"Logged in successfully.", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(),MainActivity.class));
                         }else {
-                            Toast.makeText(Login.this,"there has been an error."+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Login.this,"there has been an error."+task.getException().getMessage(), Toast.LENGTH_LONG).show();
+                            //                progressBar.setVisibility(View.GONE);
                         }
                     }
                 });
